@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
+import "./koledar.css";
 
 
 function Koledar(){
@@ -31,6 +32,7 @@ function  v_minute(t){
       <Calendar onChange= {prikazi_forme} value={value} />
     </div>
     {vnos && (<>
+    <div className="forma_za_vnos">
       <p>stevilose moznih ur: {se_mozne_ure}</p>
 <form>
     <select name="delovni_nalog">          
@@ -56,6 +58,7 @@ function  v_minute(t){
 
 <br/><button type="submit">Vnesi</button>
 </form>
+</div>
 </>
 )}
 

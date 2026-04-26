@@ -1,0 +1,23 @@
+.forma_za_vnos {
+    width: 300px;
+    padding: 10px;
+    margin-left: 400px;
+    padding-top: -300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.forma_za_vnos input:focus {
+    border-color: red;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.forma_za_vnos input {
+    width: 90%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
