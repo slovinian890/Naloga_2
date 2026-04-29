@@ -8,8 +8,10 @@ function Home() {
 
   return (
     <>
-        <button onClick={() => navigate('/koledar')}>vnesi ure</button>
+    <button onClick={() => navigate('/koledar')}>vnesi ure</button>
     <button onClick={() => navigate('/pregled_ur')}>pregled ur</button>
+    <button onClick={() => navigate('/')}>domov</button>
+
 </>
   );
 }
