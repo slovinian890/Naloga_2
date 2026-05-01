@@ -1,6 +1,7 @@
 import Koledar from '../koledar/Koledar';
 import Pregled_ur from '../koledar/pregled_ur.jsx';
 import { Route, Routes, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css'
 
 function Home() {
@@ -17,6 +18,12 @@ function Home() {
 }
 
 function App() {
+  useEffect(() => {
+    fetch("http://localhost:8080/api/hello")
+      .then(res => res.text())
+      .then(data => console.log(data));
+  }, []);
+
   return (
     <>
     <Routes>

@@ -13,7 +13,7 @@ function Koledar(){
 function prikazi_forme(){
   setVnos(true);
 }
-function preracun_ur(e){ w3
+function preracun_ur(e){
    let result =  v_minute("10:00") - v_minute("02:00");
   setSe_mozne_ure (result/60 + result%60);
 }

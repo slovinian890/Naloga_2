@@ -1,13 +1,13 @@
-package com.result.result_naloga_2;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResultNaloga2Application {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ResultNaloga2Application.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
